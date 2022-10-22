@@ -14,6 +14,7 @@ export const Canvas: React.FC<Props> = ({
 
   return (
     <canvas 
+      className='rounded border-2 border-black m-2'
       width={width}
       height={height}
       ref={canvasRef as any}
